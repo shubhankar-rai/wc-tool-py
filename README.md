@@ -34,19 +34,19 @@ python main.py [options] <filepath>
 
 ## Example Usage:
 
-1. Get all statistics:
-   `python main.py example.txt`
-   **Output**:
-   `1234 56 7 example.txt`
+1. Get all statistics:\
+   `python main.py example.txt`\
+   **Output**:\
+   `1234 56 7 example.txt`\
    _(Bytes, Lines, Words, Filename)_
 
-2. Get only the word count:
-   `python main.py -w example.txt`
-   **Output**:
+2. Get only the word count:\
+   `python main.py -w example.txt`\
+   **Output**:\
    `123`
 
-3. Get the line count and character count:
-   `python main.py -l -m example.txt`
+3. Get the line count and character count:\
+   `python main.py -l -m example.txt`\
    **Output**:
    ```
    56
